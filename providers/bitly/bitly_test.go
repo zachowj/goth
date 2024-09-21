@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/markbates/goth/providers/bitly"
 	"github.com/stretchr/testify/assert"
+	"github.com/zachowj/goth/providers/bitly"
 )
 
 func Test_New(t *testing.T) {

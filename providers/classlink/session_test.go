@@ -3,9 +3,9 @@ package classlink_test
 import (
 	"testing"
 
-	"github.com/markbates/goth"
-	"github.com/markbates/goth/providers/classlink"
 	"github.com/stretchr/testify/assert"
+	"github.com/zachowj/goth"
+	"github.com/zachowj/goth/providers/classlink"
 )
 
 func Test_ImplementsSession(t *testing.T) {

@@ -3,9 +3,9 @@ package kakao_test
 import (
 	"testing"
 
-	"github.com/markbates/goth"
-	"github.com/markbates/goth/providers/line"
 	"github.com/stretchr/testify/assert"
+	"github.com/zachowj/goth"
+	"github.com/zachowj/goth/providers/line"
 )
 
 func Test_Implements_Session(t *testing.T) {

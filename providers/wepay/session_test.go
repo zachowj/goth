@@ -3,9 +3,9 @@ package wepay_test
 import (
 	"testing"
 
-	"github.com/markbates/goth"
-	"github.com/markbates/goth/providers/wepay"
 	"github.com/stretchr/testify/assert"
+	"github.com/zachowj/goth"
+	"github.com/zachowj/goth/providers/wepay"
 )
 
 func Test_Implements_Session(t *testing.T) {

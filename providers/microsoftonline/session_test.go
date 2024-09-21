@@ -3,9 +3,9 @@ package microsoftonline_test
 import (
 	"testing"
 
-	"github.com/markbates/goth"
-	"github.com/markbates/goth/providers/microsoftonline"
 	"github.com/stretchr/testify/assert"
+	"github.com/zachowj/goth"
+	"github.com/zachowj/goth/providers/microsoftonline"
 )
 
 func Test_Implements_Session(t *testing.T) {

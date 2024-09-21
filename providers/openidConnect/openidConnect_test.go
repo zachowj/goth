@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/markbates/goth"
 	"github.com/stretchr/testify/assert"
+	"github.com/zachowj/goth"
 )
 
 var (

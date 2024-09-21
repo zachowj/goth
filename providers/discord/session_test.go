@@ -3,8 +3,8 @@ package discord
 import (
 	"testing"
 
-	"github.com/markbates/goth"
 	"github.com/stretchr/testify/assert"
+	"github.com/zachowj/goth"
 )
 
 func Test_ImplementsSession(t *testing.T) {

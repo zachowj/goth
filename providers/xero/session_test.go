@@ -3,9 +3,9 @@ package xero_test
 import (
 	"testing"
 
-	"github.com/markbates/goth"
-	"github.com/markbates/goth/providers/xero"
 	"github.com/stretchr/testify/assert"
+	"github.com/zachowj/goth"
+	"github.com/zachowj/goth/providers/xero"
 )
 
 func Test_Implements_Session(t *testing.T) {

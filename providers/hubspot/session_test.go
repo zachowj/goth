@@ -1,11 +1,12 @@
 package hubspot_test
 
 import (
-	"github.com/markbates/goth/providers/hubspot"
 	"testing"
 
-	"github.com/markbates/goth"
+	"github.com/zachowj/goth/providers/hubspot"
+
 	"github.com/stretchr/testify/assert"
+	"github.com/zachowj/goth"
 )
 
 func Test_Implements_Session(t *testing.T) {

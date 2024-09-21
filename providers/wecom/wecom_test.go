@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/markbates/goth"
-	"github.com/markbates/goth/providers/wecom"
 	"github.com/stretchr/testify/assert"
+	"github.com/zachowj/goth"
+	"github.com/zachowj/goth/providers/wecom"
 )
 
 func Test_Implements_Provider(t *testing.T) {

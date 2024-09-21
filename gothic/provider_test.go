@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/markbates/goth/gothic"
 	"github.com/stretchr/testify/assert"
+	"github.com/zachowj/goth/gothic"
 )
 
 func Test_GetAuthURL122(t *testing.T) {

@@ -3,8 +3,9 @@ package hubspot
 import (
 	"encoding/json"
 	"errors"
-	"github.com/markbates/goth"
 	"strings"
+
+	"github.com/zachowj/goth"
 )
 
 // Session stores data during the auth process with Hubspot.

@@ -3,9 +3,9 @@ package spotify_test
 import (
 	"testing"
 
-	"github.com/markbates/goth"
-	"github.com/markbates/goth/providers/spotify"
 	"github.com/stretchr/testify/assert"
+	"github.com/zachowj/goth"
+	"github.com/zachowj/goth/providers/spotify"
 )
 
 func Test_ImplementsSession(t *testing.T) {

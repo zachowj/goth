@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/jarcoal/httpmock"
-	"github.com/markbates/goth"
-	"github.com/markbates/goth/providers/auth0"
 	"github.com/stretchr/testify/assert"
+	"github.com/zachowj/goth"
+	"github.com/zachowj/goth/providers/auth0"
 )
 
 func Test_New(t *testing.T) {

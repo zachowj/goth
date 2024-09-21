@@ -13,10 +13,10 @@ import (
 	"testing"
 
 	"github.com/gorilla/sessions"
-	"github.com/markbates/goth"
-	. "github.com/markbates/goth/gothic"
-	"github.com/markbates/goth/providers/faux"
 	"github.com/stretchr/testify/assert"
+	"github.com/zachowj/goth"
+	. "github.com/zachowj/goth/gothic"
+	"github.com/zachowj/goth/providers/faux"
 )
 
 type mapKey struct {

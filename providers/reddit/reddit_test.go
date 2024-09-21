@@ -2,13 +2,14 @@ package reddit
 
 import (
 	"encoding/json"
-	"github.com/markbates/goth"
-	"golang.org/x/oauth2"
 	"net/http"
 	"net/http/httptest"
 	"reflect"
 	"testing"
 	"time"
+
+	"github.com/zachowj/goth"
+	"golang.org/x/oauth2"
 )
 
 var response = redditResponse{
